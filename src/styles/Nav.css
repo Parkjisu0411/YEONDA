@@ -1,0 +1,10 @@
+
+nav {
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    margin-top: 1rem;
+    color: #9292A6;
+}
