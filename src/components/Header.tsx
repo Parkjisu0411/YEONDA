@@ -1,4 +1,4 @@
-import '../styles/Header.css';
+import '../styles/Header.scss';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSun } from '@fortawesome/free-solid-svg-icons';
@@ -11,17 +11,17 @@ import React from 'react';
 function Header() {
     return (
         <header className='bx-wrap'>
-            <span className="logo">YEONDA</span>
+            <span className='logo compo-hover--pointer'>YEONDA</span>
             <div>
                 <ul>
                     <li>
-                        <FontAwesomeIcon icon={ faSun } />
+                        <FontAwesomeIcon className='compo-hover--pointer' icon={ faSun } />
                     </li>
                     <li>
-                        <FontAwesomeIcon icon={ faSearch } />
+                        <FontAwesomeIcon className='compo-hover--pointer' icon={ faSearch } />
                     </li>
                     <li>
-                        <button className="btn-login">로그인</button>
+                        <button className='btn-login compo-hover--pointer'>로그인</button>
                     </li>
                 </ul>
             </div>

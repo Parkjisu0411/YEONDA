@@ -7,18 +7,16 @@ header {
     width: 82%;
     margin-left: auto;
     margin-right: auto;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-li {
-    display: inline-block;
-    margin-left: 16px;
-    font-size: 18px;
-    font-weight: bold;
+    ul {
+        list-style-type: none;
+        padding: 0;
+        li {
+            display: inline-block;
+            margin-left: 16px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    }
 }
 
 .logo {

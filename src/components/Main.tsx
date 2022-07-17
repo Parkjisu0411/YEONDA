@@ -8,18 +8,18 @@ function Main() {
         <main className='bx-wrap'>
             <Nav></Nav>
             <section>
-                <article></article>
-                <article></article>
-                <article></article>
-                <article></article>
-                <article></article>
-                <article></article>
-                <article></article>
-                <article></article>
-                <article></article>
-                <article></article>
-                <article></article>
-                <article></article>
+                <article className='compo-hover--pointer'></article>
+                <article className='compo-hover--pointer'></article>
+                <article className='compo-hover--pointer'></article>
+                <article className='compo-hover--pointer'></article>
+                <article className='compo-hover--pointer'></article>
+                <article className='compo-hover--pointer'></article>
+                <article className='compo-hover--pointer'></article>
+                <article className='compo-hover--pointer'></article>
+                <article className='compo-hover--pointer'></article>
+                <article className='compo-hover--pointer'></article>
+                <article className='compo-hover--pointer'></article>
+                <article className='compo-hover--pointer'></article>
             </section>
         </main>
     );
